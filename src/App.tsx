@@ -6,7 +6,7 @@ import MultiStep from "./pages/MultiStep";
 import SignUp from "./pages/SignUp";
 
 function App() {
-  const [showMultiStepForm, setShowMultiStepForm] = useState(false);
+  const [showMultiStepForm, setShowMultiStepForm] = useState(true);
 
   const handleFormTypeChange = (event: ChangeEvent<HTMLInputElement>) => {
     setShowMultiStepForm(event.target.checked);
